@@ -4,8 +4,8 @@
   	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
   	<title>QUnit results for PhoneGap JS API</title>
     <!-- You need the following two files in the same directory for QUnit to run. -->
-    <link rel="stylesheet" type="text/css" href="qunit.css" />
-	<script type="text/javascript" src="qunit.js"></script>
+   <!--  <link rel="stylesheet" type="text/css" href="qunit.css" />
+	<script type="text/javascript" src="qunit.js"></script> -->
 	<!-- Make sure you copy in phonegap.js from the PhoneGap repository (that's what you're testing, right?) -->
     <script type="text/javascript" src="../src/android/phonegap.js"></script>
     <!--<script type="text/javascript" src="../src/device.js"></script>-->
@@ -16,21 +16,21 @@
     <script type="text/javascript" src="../src/position.js"></script>
     <script type="text/javascript" src="../src/geolocation.js"></script>
 	<script type="text/javascript">
-		// PhoneGap.desktop = true;
+		PhoneGap.desktop = true;
 		
-		// function Tests() {
-		// 	this.TEST_TIMEOUT = 15000;
-		// };
-		// var tests = new Tests();
+		function Tests() {
+			this.TEST_TIMEOUT = 15000;
+		};
+		var tests = new Tests();
 
-		// // Runs each function in Tests that contains 'Tests' in the name.
-		// function run() {
-		// 	for (var t in tests) {
-		// 		if (t.indexOf('Tests') > -1) {
-		// 			tests[t]();
-		// 		}
-		// 	}
-		// }
+		// Runs each function in Tests that contains 'Tests' in the name.
+		function run() {
+			for (var t in tests) {
+				if (t.indexOf('Tests') > -1) {
+					tests[t]();
+				}
+			}
+		}
 
 		// document.addEventListener('deviceready', run, false);
 	</script>
