@@ -1,8 +1,0 @@
-/*
-Contacts
-Contact
-ContactName
-ContactField
-ContactAddress
-ContactOrganization
-*/
