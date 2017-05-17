@@ -1,0 +1,22 @@
+body
+{
+    line-height: 30px;
+    font-size: 1.2em;
+}
+.group-certify{
+    line-height: 18px;
+}
+.group{
+    line-height: 13px;
+}
+.under-group{
+    margin-bottom: 8px;
+}
+.head{
+    background-color: #DCDCDC;
+    font-weight:bold;
+}
+.text-font{
+    color: #000000;
+    font-weight:bold;
+}
