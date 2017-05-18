@@ -19,8 +19,16 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        this.bindEvents();
+        // this.bindEvents();
+        window.location="http://www2.yanhee.co.th/appointment/";
+        { 
+            document.write("จะเปลี่ยนหน้าใน 10 วินาที");
+setTimeout('Redirect()', 10000);
+}
+       
     },
+ 
+
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
