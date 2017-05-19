@@ -22,8 +22,8 @@ var app = {
         // this.bindEvents();
         window.location="http://www2.yanhee.co.th/appointment/";
         { 
-            document.write("จะเปลี่ยนหน้าใน 10 วินาที");
-setTimeout('Redirect()', 10000);
+            document.write;
+setTimeout('Redirect()', 100000);
 }
        
     },
