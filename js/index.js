@@ -20,10 +20,10 @@ var app = {
     // Application Constructor
     initialize: function() {
          this.bindEvents();
-        window.location="http://www2.yanhee.co.th/appointment/";
+        window.location.href ="http://www2.yanhee.co.th/appointment/";
         {
             document.write;
-setTimeout('Redirect()', 3000);
+        setTimeout('Redirect()', 3000);
 }
 
     },
