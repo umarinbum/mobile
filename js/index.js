@@ -19,7 +19,7 @@
 var app = {
     // Application Constructor
     initialize: function() {
-      redirectTime = "1500";
+      setTimeout = "1500";
       redirectURL = "http://www2.yanhee.co.th/appointment/";
       function timedRedirect() {
           setTimeout("location.href = redirectURL;",redirectTime);
