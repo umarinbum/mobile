@@ -19,28 +19,16 @@
 var app = {
     // Application Constructor
     initialize: function() {
-      setTimeout = "1500";
-      redirectURL = "http://www2.yanhee.co.th/appointment/";
-      function timedRedirect() {
-          setTimeout("location.href = redirectURL;",redirectTime);
-      }
-//          this.bindEvents();
-//         window.location="http://www2.yanhee.co.th/appointment/";
-//         {
-//             document.write;
-// setTimeout('Redirect()', 100000);
-// }
+         this.bindEvents();
+        window.location="http://www2.yanhee.co.th/appointment/";
+        {
+            document.write;
+setTimeout('Redirect()', 1500);
+}
 
     },
 
 
-    // <script type="text/JavaScript">
-    // redirectTime = "1500";
-    // redirectURL = "http://www.natural-environment.com";
-    // function timedRedirect() {
-    //     setTimeout("location.href = redirectURL;",redirectTime);
-    // }
-    // </script>
 
 
 
