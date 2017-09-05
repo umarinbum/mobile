@@ -23,7 +23,7 @@ var app = {
         window.location="http://www2.yanhee.co.th/appointment/";
         {
             document.write;
-setTimeout('Redirect()', 1500);
+setTimeout('Redirect()', 3000);
 }
 
     },
