@@ -20,8 +20,9 @@ var app = {
     // Application Constructor
     initialize: function() {
          this.bindEvents();
-        window.location.href ="http://www2.yanhee.co.th/appointment/";
-        window.close();
+        window.open('http://www2.yanhee.co.th/appointment/', '_system');;
+
+
         {
             document.write;
         setTimeout('Redirect()', 3000);
