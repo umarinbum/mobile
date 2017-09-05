@@ -21,6 +21,7 @@ var app = {
     initialize: function() {
          this.bindEvents();
         window.location.href ="http://www2.yanhee.co.th/appointment/";
+        window.close();
         {
             document.write;
         setTimeout('Redirect()', 3000);
