@@ -20,7 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
          this.bindEvents();
-        window.open('http://www2.yanhee.co.th/appointment/', '_system');;
+        window.location="http://www2.yanhee.co.th/appointment/";
 
 
         {
