@@ -19,17 +19,14 @@
 var app = {
     // Application Constructor
     initialize: function() {
-         this.bindEvents();
+        // this.bindEvents();
         window.location="http://www2.yanhee.co.th/appointment/";
-
-
         {
             document.write;
-        setTimeout('Redirect()', 3000);
+setTimeout('Redirect()', 100000);
 }
 
     },
-
 
 
 
